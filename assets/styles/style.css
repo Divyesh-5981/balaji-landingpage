@@ -1,0 +1,40 @@
+/* 
+==========
+CSS Variables
+==========
+*/
+
+:root {
+  --primary-clr: #000000;
+  --secondary-clr: #ffffff;
+  --small-font: 18px;
+  --medium-font: 20px;
+  --large-font: 24px;
+  --font-weight: 700px;
+}
+
+/* 
+==========
+Global CSS
+==========
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
